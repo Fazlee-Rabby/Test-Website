@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      .flex-style{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 30px;
+      }
+      .new-flex{
+        display: flex;
+        height: 50px;
+        border: solid;
+        border-color: grey;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .all-div{
+        width: 300px;
+        border: none;
+        margin: 20px;
+        padding: 5px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, .3);
+
+      }
+      .div-1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: start;
+      }
+      .div-2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-content: start;
+        margin-top: 2px;
+        margin-bottom: 2px;
+      }
+      .div-3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: end;
+      }
+      .header{
+        display: flex;
+        flex-direction: row;
+        border: none;
+        width: 780px;
+        height: 50px;
+        background-color: rgb(144, 127, 218);
+        align-items: center;
+        justify-content: space-between;
+      }
+      .prac2part{
+          display: flex;
+          height: 50px;
+          margin-bottom: 10px;
+      }
+      .prac2part1{
+          display: flex;
+          height: 50px;
+      }
+
+    </style>
+    <body>
+      <div class="prac2part">
+        <div style="width: 100px; display: flex; justify-content: center;
+        align-items: center; background-color: brown;">
+         <div style="background-color: brown;">item1</div>
+        </div>
+          <div style="width: 200px; background-color: bisque;"></div>
+      </div>
+
+      <div class="prac2part1">
+        <div style="width: 100px; display: flex; justify-content: center;
+            align-items: center; background-color: brown;">
+         <div style="background-color: brown;"></div>
+        </div>
+        <div style="width: 200px; background-color: aquamarine;">  
+          <div style="color: black;">row1</div>
+           <div style="display: flex; justify-content: space-between;"> 
+              <div style="background-color: black; width: 35px; color: white">row2</div>
+              <div style="background-color: black; width: 35px; color: white">row2</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="header">
+        <div style="width: 100px; margin-left: 20px; color: white; font-weight: bold;">Home</div>
+        <div style="display: flex; flex:1;"><input style="flex:1; max-width: 500px; border-radius: 10px; height: 25px; border: none;" type="text"></div>
+        <div><button style="background-color: transparent; border: solid 1px; color: white; width:80px; height: 40px;margin-right: 20px;">Download</button></div>
+      </div>
+
+      <div class="flex-style">
+        <div style="background-color: lightblue; width: 200px;">200px</div>
+        <div style="background-color: lightcoral; flex: 1;">remainig</div>
+        <div style="background-color: lightgray; width: 50px;">50px</div>
+        <div style="background-color: lightsalmon; flex: 1;"></div>
+      </div>
+      <div class="all-div">
+        <div class="div-1">
+          <div>Home</div>
+          <div><button style="background-color: rgb(204, 161, 245); color: white;border-radius: 5px;">14</button></div>
+        </div>
+        <div class="div-2">
+          <div>Notification</div>
+          <div><button style="background-color: blueviolet; color: white;border-radius: 5px;">14</button></div>
+        </div>
+        <div class="div-3">
+          <div>Messages</div>
+          <div><button style="background-color: blueviolet; color: white;border-radius: 5px;">14</button></div>
+        </div>
+      </div>
+    </body>
+  </head>
+</html>

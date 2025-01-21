@@ -1,0 +1,79 @@
+p{
+  font-family: arial;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.vedio-title{
+  font-size: 18px;
+  font-weight: bold;
+  width: 250px; 
+  text-align: left;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
+
+.vedio-stats{
+  font-size: 14px;
+  color: grey;
+  line-height: 5px;
+  margin-bottom: 20px;
+}
+
+.vedio-author{
+  font-size: 17px;
+  color: rgb(96, 96, 96);
+  margin-bottom: 20px;
+}
+
+.vedio-description{
+  font-size: 16px;
+  color: rgb(96, 96, 96);
+  width: 250px;
+  line-height: 21px;
+  margin-bottom: 100px;
+}
+
+.apple-text{
+  margin-bottom: 50px;
+  font-size: 14px;
+  background-color: rgb(227, 65, 64);
+  color: white;
+  text-align: center;
+  padding-top: 18px;
+  padding-bottom: 18px;
+}
+
+.shop-now:hover{
+  text-decoration: underline;
+}
+
+.tahoma-font{
+  font-family: Tahoma;
+  font-size: 20px;
+  font-weight: bold;
+  width: 250px;
+}
+
+.small-font{
+  font-family: Arial;
+  font-size: 10px;
+}
+
+.learn-more{
+  font-size: 15px;
+  font-weight: lighter;
+  color: blue;
+}
+.learn-more:hover{
+  text-decoration: underline;
+}
+.font-load{
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.highlight{
+  text-decoration: underline;
+}
